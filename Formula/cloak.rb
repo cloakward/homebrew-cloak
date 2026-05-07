@@ -1,17 +1,17 @@
 class Cloak < Formula
   desc "MCP-native local secrets vault"
   homepage "https://github.com/cloakward/cloak"
-  version "0.9.0-rc2"
+  version "0.9.0-rc3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/cloakward/cloak/releases/download/v0.9.0-rc2/cloak-0.9.0-rc2-aarch64-apple-darwin.tar.gz"
-      sha256 "b31fbdc7b9cf605727dc63d5f14102a7bb3c3b20e83656e7d8d7a6722863f0aa"
+      url "https://github.com/cloakward/cloak/releases/download/v0.9.0-rc3/cloak-0.9.0-rc3-aarch64-apple-darwin.tar.gz"
+      sha256 "787e364b8b2d0e631e0a64ebdc97abfd683d5bbe391638494c406ccdcdb7d44b"
     end
     on_intel do
-      url "https://github.com/cloakward/cloak/releases/download/v0.9.0-rc2/cloak-0.9.0-rc2-x86_64-apple-darwin.tar.gz"
-      sha256 "e2651398d238aa107ceb7cb35a973046277df39cdf4b088f53e5a96f19a133dc"
+      url "https://github.com/cloakward/cloak/releases/download/v0.9.0-rc3/cloak-0.9.0-rc3-x86_64-apple-darwin.tar.gz"
+      sha256 "dfe91284670a58c4cd4891d0d7f0812d875f958d7bbf55dc72af6f7c81fc7df4"
     end
   end
 
@@ -22,8 +22,8 @@ class Cloak < Formula
     # end
     # ^ uncomment when the release workflow produces a linux/arm64 tarball.
     on_intel do
-      url "https://github.com/cloakward/cloak/releases/download/v0.9.0-rc2/cloak-0.9.0-rc2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c43756505c7bd0721740e992a0812e2265d364a4e0410a329707591fbb00155d"
+      url "https://github.com/cloakward/cloak/releases/download/v0.9.0-rc3/cloak-0.9.0-rc3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "483ba3920aaf1f1c3f0a7a5936331a447d6703f52172bd47cd715b217fc6a006"
     end
   end
 
