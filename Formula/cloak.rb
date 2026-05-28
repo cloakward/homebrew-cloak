@@ -1,17 +1,17 @@
 class Cloak < Formula
   desc "MCP-native local secrets vault"
   homepage "https://github.com/cloakward/cloak"
-  version "1.0.1-rc1"
+  version "1.0.1-rc2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/cloakward/cloak/releases/download/v1.0.1-rc1/cloak-1.0.1-rc1-aarch64-apple-darwin.tar.gz"
-      sha256 "9ef94135c7b03140715e46c773c9a2f454df68ce5bbcfa4f5fd244bbc59f23ef"
+      url "https://github.com/cloakward/cloak/releases/download/v1.0.1-rc2/cloak-1.0.1-rc2-aarch64-apple-darwin.tar.gz"
+      sha256 "64e03357ccf4b05c737de84ed0d3c7ed6297ae2cf8b408b780b1775e0f6cb8e3"
     end
     on_intel do
-      url "https://github.com/cloakward/cloak/releases/download/v1.0.1-rc1/cloak-1.0.1-rc1-x86_64-apple-darwin.tar.gz"
-      sha256 "1902c954bbdadaba1cf5f86cd2544bcdb00f86144a69ad62d4cc5d4bb21125b1"
+      url "https://github.com/cloakward/cloak/releases/download/v1.0.1-rc2/cloak-1.0.1-rc2-x86_64-apple-darwin.tar.gz"
+      sha256 "268f3648b3f28c267439b27d279cc9936335c385ab576bc7681b60e839aefc0c"
     end
   end
 
@@ -22,8 +22,8 @@ class Cloak < Formula
     # end
     # ^ uncomment when the release workflow produces a linux/arm64 tarball.
     on_intel do
-      url "https://github.com/cloakward/cloak/releases/download/v1.0.1-rc1/cloak-1.0.1-rc1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "472f8f0d6fd66ed1abdcc3d9d5ae633ec2bd0ceb17c980cc409fa8c08092f48a"
+      url "https://github.com/cloakward/cloak/releases/download/v1.0.1-rc2/cloak-1.0.1-rc2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f2eab577f631ea0f6b369e7d785c4368c850ed9c2b2473383d25b30263fd14d8"
     end
   end
 
