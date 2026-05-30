@@ -1,24 +1,24 @@
 class Cloak < Formula
   desc "MCP-native local secrets vault"
   homepage "https://github.com/cloakward/cloak"
-  version "1.0.2"
+  version "1.0.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/cloakward/cloak/releases/download/v1.0.2/cloak-1.0.2-aarch64-apple-darwin.tar.gz"
-      sha256 "529e138363ff6c78a975478cd8a4b8bfdcccd6a5fe1933162394173ef5d70c37"
+      url "https://github.com/cloakward/cloak/releases/download/v1.0.3/cloak-1.0.3-aarch64-apple-darwin.tar.gz"
+      sha256 "71ed67e7ec649182d2c9561f43e098aceaddd99c1cb0bd66980f929936a36d95"
     end
     on_intel do
-      url "https://github.com/cloakward/cloak/releases/download/v1.0.2/cloak-1.0.2-x86_64-apple-darwin.tar.gz"
-      sha256 "7c8051665e53dc7ac93a1be90c2b178519dd1bca8362263c46ace3b51febe97f"
+      url "https://github.com/cloakward/cloak/releases/download/v1.0.3/cloak-1.0.3-x86_64-apple-darwin.tar.gz"
+      sha256 "1cc3d83f61ab260a3f8e68e0bc6c202ec02d69b9f66ae7428d0ec943787c12db"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cloakward/cloak/releases/download/v1.0.2/cloak-1.0.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "320c8871e00399241b563196ea0126a4e1f62c9e66a8819104b1902d54ab0ba1"
+      url "https://github.com/cloakward/cloak/releases/download/v1.0.3/cloak-1.0.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ba7ea71a441eccdd9d385a56d4cadaa907369039e0add37583b02d122a9ca1f9"
     end
   end
 
